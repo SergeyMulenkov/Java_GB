@@ -12,12 +12,14 @@ public class Ex1 {
         System.out.println();
         print(part);
     }
-    public static void print(String [] arr) { //метод печати
+
+    public static void print(String[] arr) {
         for (String i : arr) {
             System.out.printf((i) + " ");
         }
     }
-    public static String[] array (String [] arr){ //метод замены
+
+    public static String[] array(String[] arr) {
         for (int i = 0; i < arr.length / 2; i++) {
             String temp = arr[i];
             arr[i] = arr[arr.length - i - 1];
