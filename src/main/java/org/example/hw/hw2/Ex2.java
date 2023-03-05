@@ -10,10 +10,10 @@ public class Ex2 {
         int a = sc.nextInt();
         if (a != 0) {
             boolean flag = true;
-            while (flag){
+            while (flag) {
                 int b = sc.nextInt();
-                if (b != 0){
-                    if (a > 0 && b < 0){
+                if (b != 0) {
+                    if (a > 0 && b < 0) {
                         sum += a;
                     }
                     a = b;
@@ -23,6 +23,7 @@ public class Ex2 {
                 }
             }
         } else {
-            System.out.println(0);}
+            System.out.println(0);
+        }
     }
 }
